@@ -1,0 +1,35 @@
+body {
+	background-color: rgba(0,0,0,.1);
+}
+
+.borderBox {
+	border: 15px solid rgba(0,0,0,1);
+	width: 770px;
+	height: 770px;
+}
+.playingBox {
+	border: 1px solid black;
+	width: 800px;
+	height: 800px;
+	position: relative;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.dot1 {
+	background: black;
+	border: 1px solid white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 120px;
+	top: 120px;
+}
+.dot2 {
+	background: rgba(0,0,0,0.6);
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 120px;
+	top: 120px;
+}
